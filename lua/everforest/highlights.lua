@@ -1683,6 +1683,18 @@ highlights.generate_syntax = function(palette, options)
     markdownIdDeclaration = { link = "markdownLinkText" },
     markdownBoldDelimiter = { link = "Grey" },
     markdownId = { link = "Yellow" },
+    ["@text.title.1.marker.markdown"] = { link = "markdownH1" },
+    ["@text.title.2.marker.markdown"] = { link = "markdownH2" },
+    ["@text.title.3.marker.markdown"] = { link = "markdownH3" },
+    ["@text.title.4.marker.markdown"] = { link = "markdownH4" },
+    ["@text.title.5.marker.markdown"] = { link = "markdownH5" },
+    ["@text.title.6.marker.markdown"] = { link = "markdownH6" },
+    ["@text.title.1.markdown"] = { link = "markdownH1" },
+    ["@text.title.2.markdown"] = { link = "markdownH2" },
+    ["@text.title.3.markdown"] = { link = "markdownH3" },
+    ["@text.title.4.markdown"] = { link = "markdownH4" },
+    ["@text.title.5.markdown"] = { link = "markdownH5" },
+    ["@text.title.6.markdown"] = { link = "markdownH6" },
 
     -- HTML
     htmlH1 = syntax_entry(palette.red, palette.none, { styles.bold }),
